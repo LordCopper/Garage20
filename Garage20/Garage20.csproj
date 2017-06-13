@@ -129,18 +129,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201706120721052_Init.cs" />
-    <Compile Include="Migrations\201706120721052_Init.Designer.cs">
-      <DependentUpon>201706120721052_Init.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201706120736164_Init2.cs" />
-    <Compile Include="Migrations\201706120736164_Init2.Designer.cs">
-      <DependentUpon>201706120736164_Init2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201706120825593_stringTOenum.cs" />
-    <Compile Include="Migrations\201706120825593_stringTOenum.Designer.cs">
-      <DependentUpon>201706120825593_stringTOenum.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\DeleteViewModel.cs" />
     <Compile Include="Models\DetailsViewModel.cs" />
@@ -168,17 +156,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201706120721052_Init.resx">
-      <DependentUpon>201706120721052_Init.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201706120736164_Init2.resx">
-      <DependentUpon>201706120736164_Init2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201706120825593_stringTOenum.resx">
-      <DependentUpon>201706120825593_stringTOenum.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
